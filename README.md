@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+````markdown name=README.md
+# Neo Money Vision
 
-## Project info
+Neo Money Vision adalah proyek open-source untuk deteksi uang menggunakan teknologi Computer Vision.  
+Project ini memanfaatkan TypeScript dan framework modern untuk membangun aplikasi yang mampu mengenali nominal uang dari gambar.
 
-**URL**: https://lovable.dev/projects/35b68796-9a42-4ccb-9d70-f61f6eece3b4
+## Fitur
+- Deteksi uang kertas berbagai denominasi secara otomatis.
+- Dukungan upload gambar dan deteksi via kamera/webcam.
+- Hasil deteksi real-time dan visualisasi bounding box pada uang yang terdeteksi.
+- Mudah diintegrasikan ke aplikasi web modern.
 
-## How can I edit this code?
+## Instalasi
 
-There are several ways of editing your application.
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/Furohito/neo-money-vision-main.git
+   cd neo-money-vision-main
+   ```
 
-**Use Lovable**
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/35b68796-9a42-4ccb-9d70-f61f6eece3b4) and start prompting.
+3. **Jalankan aplikasi:**
+   ```bash
+   npm start
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+## Penggunaan
 
-**Use your preferred IDE**
+- Buka aplikasi di browser.
+- Upload gambar uang atau gunakan webcam.
+- Sistem akan otomatis mendeteksi dan menampilkan hasil deteksi.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Teknologi yang Digunakan
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
 - TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- [Framework frontend sesuai implementasi] (misal: React, Next.js, dst)
+- TensorFlow.js atau library deteksi objek lainnya
 
-## How can I deploy this project?
+## Kontribusi
 
-Simply open [Lovable](https://lovable.dev/projects/35b68796-9a42-4ccb-9d70-f61f6eece3b4) and click on Share -> Publish.
+Kontribusi sangat terbuka!  
+Silakan fork repo ini, buat perubahan, dan ajukan pull request.
 
-## Can I connect a custom domain to my Lovable project?
+## Lisensi
 
-Yes, you can!
+MIT License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Author:** [Furohito](https://github.com/Furohito)
+
+````
